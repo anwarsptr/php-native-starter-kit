@@ -1,0 +1,24 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "anwarsptr/php-native-starter-kit",
+    "type": "project",
+    "description": "The skeleton application for the php native starter kit.",
+    "keywords": [
+        "php",
+        "native",
+        "starter kit"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "scripts": {
+        "serve": "php serve.php || exit 0",
+        "serve-py": "python run.py",
+        "serve-bat": "run.bat"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}

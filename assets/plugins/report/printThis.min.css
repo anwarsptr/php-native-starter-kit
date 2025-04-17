@@ -1,0 +1,11 @@
+@media print {
+    body {
+        -webkit-print-color-adjust: exact; /* Untuk Chrome & Safari */
+        print-color-adjust: exact; /* Browser lain */
+    }
+    .printArea .bg-primary { background: #3290EC !important; }
+    .printArea .text-white { color: #fff !important }
+    .printArea .bg-grey { background: #eee !important; }
+    .printArea .border-lr-none { border-left:1px #fff !important; border-right:1px #fff !important; }
+    .printArea .padding-sm { padding: 5px 10px 5px 10px !important; }
+}
