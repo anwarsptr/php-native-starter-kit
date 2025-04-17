@@ -1,15 +1,17 @@
 /*
+ Navicat Premium Data Transfer
+
  Source Server         : LOCALHOST
  Source Server Type    : MySQL
  Source Server Version : 50736
  Source Host           : localhost:3306
- Source Schema         : php_native_starter_kit
+ Source Schema         : git_php_native_starter_kit
 
  Target Server Type    : MySQL
  Target Server Version : 50736
  File Encoding         : 65001
 
- Date: 17/04/2025 23:16:24
+ Date: 18/04/2025 00:53:00
 */
 
 SET NAMES utf8mb4;
@@ -28,7 +30,7 @@ CREATE TABLE `buku_tamu`  (
   `no_telp_tamu` varchar(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
   `membawa_kendaraan` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
   `nomor_kendaraan` varchar(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
-  `jenis_identitas_id` bigint(20) NULL DEFAULT NULL COMMENT 'md_jenis_identitas.id',
+  `jenis_identitas_id` bigint(20) UNSIGNED NOT NULL COMMENT 'md_jenis_identitas.id',
   `jenis_identitas` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
   `nama_yang_dikunjungi` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
   `no_tanda_masuk` varchar(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'no tanda masuk perumahan',
@@ -46,8 +48,9 @@ CREATE TABLE `buku_tamu`  (
   `deleted_by` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
   `deleted_by_id` bigint(20) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
-  INDEX `jenis_kendaraan_foreign`(`jenis_identitas_id`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 1 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+  INDEX `buku_tamu_jenis_kendaraan_id_foreign`(`jenis_identitas_id`) USING BTREE,
+  CONSTRAINT `buku_tamu_jenis_kendaraan_id_foreign` FOREIGN KEY (`jenis_identitas_id`) REFERENCES `md_jenis_identitas` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of buku_tamu
