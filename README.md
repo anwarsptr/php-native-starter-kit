@@ -116,12 +116,12 @@ DB_PASSWORD=your_password
   - Login
   <a href="img/example/login.png" target="_blank">
     <img src="img/example/login.png" width="100%" alt="Preview Login">
-  </a>
+  </a><br/><br/>
 
   - Dashboard
   <a href="img/example/dashboard.png" target="_blank">
     <img src="img/example/dashboard.png" width="100%" alt="Preview Dashboard">
-  </a>
+  </a><br/><br/>
 
   - Buku Tamu
   <a href="img/example/buku-tamu-1.png" target="_blank">
@@ -129,17 +129,17 @@ DB_PASSWORD=your_password
   </a>
   <a href="img/example/buku-tamu-2.png" target="_blank">
     <img src="img/example/buku-tamu-2.png" width="100%" alt="Preview Buku Tamu 2">
-  </a>
+  </a><br/><br/>
 
   - Report
   <a href="img/example/report.png" target="_blank">
     <img src="img/example/report.png" width="100%" alt="Preview Report">
-  </a>
+  </a><br/><br/>
 
   - Setup Role & Permission Management
   <a href="img/example/role-permission-management.png" target="_blank">
     <img src="img/example/role-permission-management.png" width="100%" alt="Preview Setup Role & Permission Management">
-  </a>
+  </a><br/><br/>
 
   - Setup Running Numbers
   <a href="img/example/running-numbers.png" target="_blank">
