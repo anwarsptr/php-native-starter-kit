@@ -107,9 +107,15 @@ DB_PASSWORD=your_password
   - ✅ Reporting (Print Preview, Export to PDF & Excel)  
   - ✅ Ready to use and easy to extend
 
-  
+## 🗂️ Database Diagram
+
+  <a href="database/Diagram.svg" target="_blank">
+    <img src="database/Diagram.svg" width="100%" alt="Preview Diagram">
+  </a>
+
 ---
 
+  <br/>
 ## 📝 License
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
