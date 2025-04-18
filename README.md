@@ -16,7 +16,7 @@ Thank you so much for your support! 🙏
 
 ## 🎯 Live Demo
 Take a look at how the app works in action!
-- 👉 <a href="https://demo.pustakakreatif.com/github/php-native-starter-kit" target="_blank">🌐 Demo PHP Native Starter Kit</a>
+- 👉 <a href="https://demo.pustakakreatif.com/github/php-native-starter-kit" target="_blank" rel="noopener noreferrer">🌐 Demo PHP Native Starter Kit</a>
 
 ---
 
