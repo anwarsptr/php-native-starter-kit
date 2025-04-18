@@ -4,10 +4,9 @@
 
 If you find this project helpful and would like to support its ongoing development, you can show your appreciation through a donation. Your support means a lot and helps keep the project alive and growing!
 
-☕ Support me via:
-
-- 👉 [💸 PayPal](https://paypal.me/anwarsptr)
-- 👉 [💖Bank Transfer / Virtual Account](https://anwarsptr.com/profile#paymentMethod)
+☕ Support me via: <br/>
+&nbsp; 👉 [💸 PayPal](https://paypal.me/anwarsptr) <br/>
+&nbsp; 👉 [💖Bank Transfer / Virtual Account](https://anwarsptr.com/profile#paymentMethod)
 
 Thank you so much for your support! 🙏
 
