@@ -5,19 +5,21 @@
 
 If you find this project helpful and would like to support its ongoing development, you can show your appreciation through a donation. Your support means a lot and helps keep the project alive and growing!
 
-☕ Support me via:
-
-- 👉 [💸 PayPal](https://paypal.me/anwarsptr)
-- 👉 [💖Bank Transfer / Virtual Account](https://anwarsptr.com/profile#paymentMethod)
+☕ Support me via: <br/>
+&nbsp; 👉 [💸 PayPal](https://paypal.me/anwarsptr) <br/>
+&nbsp; 👉 [💖Bank Transfer / Virtual Account](https://anwarsptr.com/profile#paymentMethod)
 
 Thank you so much for your support! 🙏
 
 ---
 
 ## 🎯 Live Demo
-Take a look at how the app works in action!
-- 👉 <a href="https://demo.pustakakreatif.com/github/php-native-starter-kit" target="_blank" rel="noopener noreferrer">🌐 Demo PHP Native Starter Kit</a>
-
+Take a look at how the app works in action! <br/>
+ 👉 <a href="https://demo.pustakakreatif.com/github/php-native-starter-kit" target="_blank" rel="noopener noreferrer">🌐 Demo PHP Native Starter Kit</a> <br/><br/>
+ 🔐 Login Account :
+  - username : `admin`
+  - password : `admin`
+    
 ---
 
 ## 🔧 Requirements
@@ -45,8 +47,8 @@ Take a look at how the app works in action!
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/anwarsptr/php-native-starter-kit
+cd php-native-starter-kit
 ```
 
 2. Install dependencies:
