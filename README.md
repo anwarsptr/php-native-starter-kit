@@ -99,8 +99,7 @@ DB_PASSWORD=your_password
   - ✅ Simple routing  
   - ✅ File autoloading  
   - ✅ MySQLi database connection  
-  - ✅ Role management  
-  - ✅ Permission management  
+  - ✅ Role & Permission management  
   - ✅ Ajax-based CRUD operations  
   - ✅ Server-side DataTables integration  
   - ✅ Customizable numbering system (Sequential or Random)  
@@ -111,6 +110,40 @@ DB_PASSWORD=your_password
 
   <a href="database/Diagram.svg" target="_blank">
     <img src="database/Diagram.svg" width="100%" alt="Preview Diagram">
+  </a>
+
+## 📸 Screenshot
+  - Login
+  <a href="img/example/login.png" target="_blank">
+    <img src="img/example/login.png" width="100%" alt="Preview Login">
+  </a>
+
+  - Dashboard
+  <a href="img/example/dashboard.png" target="_blank">
+    <img src="img/example/dashboard.png" width="100%" alt="Preview Dashboard">
+  </a>
+
+  - Buku Tamu
+  <a href="img/example/buku-tamu-1.png" target="_blank">
+    <img src="img/example/buku-tamu-1.png" width="100%" alt="Preview Buku Tamu 1">
+  </a>
+  <a href="img/example/buku-tamu-2.png" target="_blank">
+    <img src="img/example/buku-tamu-2.png" width="100%" alt="Preview Buku Tamu 2">
+  </a>
+
+  - Report
+  <a href="img/example/report.png" target="_blank">
+    <img src="img/example/report.png" width="100%" alt="Preview Report">
+  </a>
+
+  - Setup Role & Permission Management
+  <a href="img/example/role-permission-management.png" target="_blank">
+    <img src="img/example/role-permission-management.png" width="100%" alt="Preview Setup Role & Permission Management">
+  </a>
+
+  - Setup Running Numbers
+  <a href="img/example/running-numbers.png" target="_blank">
+    <img src="img/example/running-numbers.png" width="100%" alt="Preview Setup Running Numbers">
   </a>
 
 ---
