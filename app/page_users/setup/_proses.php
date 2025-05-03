@@ -63,7 +63,8 @@ if ($getProses == 'save-setup-webs') {
     }
     ResponseSuccess('Saved successfully');
   }else{
-    delete_file($foto);
+    delete_file($favicon);
+    delete_file($logo);
     ResponseFailed("Failed, try again in a few minutes");
   }
 }

@@ -30,10 +30,10 @@ include $dir_users."/includes/header.php";
       <div class="col-lg-4 col-xs-6">
         <div class="small-box bg-<?= $bg_color ?>">
           <div class="inner">
-            <h4 style="padding-top:10px !important;padding-bottom:10px !important"><b><?= $value['nama_menu'] ?></b></h4>
+            <h4 style="padding-top:10px !important;padding-bottom:10px !important"><b><?= $value['menu_name'] ?></b></h4>
           </div>
           <div class="icon">
-            <i class="fa <?= $value['icon_menu'] ?>"></i>
+            <i class="fa <?= $value['menu_icon'] ?>"></i>
           </div>
           <a href="<?= $value['route_name'] ?>" class="small-box-footer">Detail <i class="fa fa-arrow-circle-right"></i></a>
         </div>
